@@ -1,6 +1,4 @@
-# Group YY - {Short snappy Title of your project}
-
-- Your title can change over time.
+# Group 64 - Valorant Data
 
 ## Milestones
 
@@ -19,10 +17,14 @@ Details for Milestone are available on Canvas (left sidebar, Course Project).
 
 ## Team Members
 
-- Person 1: one sentence about you!
-- Person 2: one sentence about you!
-- Person 3: one sentence about you!
+Tyler Cummings:
+- The reason that I wish to work with this dataset is that I play Valorant competitively and am constantly trying to get better and improve my rank. I believe learning the stats of the top 500 Valorant players will allow me to learn which agents to play and what guns to use. The variables I am most interested in is the relationship between people's most used agent, most used gun, and their kills/wins as these might allow me to learn which characters are best and which guns are best.
 
+Karam Hejazin:
+- Gaming in general has been a huge time sink of mine, being able to play the game and then understand the top players of the games I play, is very cool, i am looking forward to seeing the whether aim determines their rank/winrate
+
+Brandon Mack:
+- I am interested in this topic as I have played a significant amount of time in this game as well as occasionally watching the esports events they host. I am most interested in the amount of kills compared to the amount of head shot kills as I am interested how often pro players are able to hit the head.
 ## Images
 
 {You should use this area to add a screenshot of an interesting plot, or of your dashboard}
