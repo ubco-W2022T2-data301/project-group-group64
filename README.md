@@ -10,7 +10,7 @@ We hope to be able to identify the top Valorant players in the world and from th
 
 ## Describe your dataset in about 150-200 words
 
-{Add your stuff here}
+The dataset was provided by user Ali Ibrahim on the website Kaggle who gathered, sorted and posted the data from the website tracker.gg. Our data consists of the region, name, tag, rating, damage_round, headshots, headshot_percent, aces, clutches, flawless, first_bloods, kills, deaths, assists, kd_ratio, kills_round, most_kills, score_round, wins, win_percent, agent_1, agent_2, agent_3, gun1_name, gun1_head, gun1_body, gun1_legs, gun1_kills (gun1 = most used gun) from the Valorant ranked leaderboard. The data was posted to Kaggle 9 months ago from Episode 4: Act 3 of Valorant which started on the 27th of April 2022 and ended the 6th of July 2022. The purpose of the dataset is for learning and fun. The reason why it is learning for learning is because knowing which gun, agents and the maps they use it the top ranked players use them on can allow players to learn which ones are best to use. It is also for fun since it is interesting and entertaining to find out the stats of the top players and what they use. Finally, the data was collected by Ali Ibrahim and two contributers Furkan Tokac and HarshJani4699. They used a scraper on the website tracker.gg on the ranked leaderboards to gather the data.
 
 ## Team Members
 
