@@ -1,7 +1,7 @@
 def load_and_process(path_to_csv_file):
     
     df = (
-        pd.read_csv('../data/raw/val_stats.csv', low_memory = False)
+        pd.read_csv(path_to_csv_file, low_memory = False)
         .loc[:, ['name', 'rating', 'kills', 'deaths', 'kd_ratio', 'assists', 'headshots', 'headshot_percent', 'wins']]
         .rename(columns={'name': 'Gamertag','rating': 'Rank','kills': 'Kills','deaths': 'Deaths','kd_ratio': 'K/D_Ratio','assists': 'Assists','headshots': 'Headshots','headshot_percent': 'Headshot %','wins': 'Wins'})
         .sort_values('Rank', ascending=False)
