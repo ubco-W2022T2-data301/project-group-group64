@@ -5,7 +5,7 @@ def load_and_process(url_or_path_to_csv_file):
     # Method Chain 1 (Load data and deal with missing data)
 
     df1 = (
-          pd.read_csv('../data/raw/val_stats.csv', low_memory=False)
+          pd.read_csv(url_or_path_to_csv_file, low_memory=False)
           .dropna()
           .drop(columns=['name', 'tag'])
           .reset_index(drop=True)
