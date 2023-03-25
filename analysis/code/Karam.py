@@ -11,10 +11,10 @@ def load_and_process(url_or_path_to_csv_file):
           .reset_index(drop=True)
       )
     # Method Chain 2 (Create new columns, drop others, and do processing)
-
+    value_counts = df1['rating'].value_counts()
+    remove = value_counts[value_counts <= 1750].index
     df2 = (
-          df1
-          .query('rating > 1750')
+          df1[~df1.rating.isin(remove)]
           .assign(num_games=lambda x: (x['wins'] / (x['win_percent'] / 100)).round())
           .rename(columns={
           'rating': 'Rank',
