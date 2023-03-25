@@ -1,3 +1,4 @@
+import pandas as pd
 def load_and_process(url_or_path_to_csv_file):
     import pandas as pd
     # Method Chain 1 (Load data and deal with missing data)
