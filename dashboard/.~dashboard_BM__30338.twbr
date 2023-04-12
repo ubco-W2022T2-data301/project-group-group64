@@ -1,0 +1,1035 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20224.23.0312.0353                               -->
+<workbook original-version='18.1' source-build='2022.4.2 (20224.23.0312.0353)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='processed_data_BM' inline='true' name='federated.0gedfgd0xikumb150qqj908qvj4o' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='processed_data_BM' name='textscan.08qfk3x1s9t01817kldf41l43ryg'>
+            <connection class='textscan' directory='/Users/bmack/Desktop/301Project/data/processed' filename='processed_data_BM.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.08qfk3x1s9t01817kldf41l43ryg' name='processed_data_BM.csv' table='[processed_data_BM#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+            <column datatype='string' name='Gamertag' ordinal='0' />
+            <column datatype='string' name='Rank' ordinal='1' />
+            <column datatype='integer' name='Kills' ordinal='2' />
+            <column datatype='integer' name='Deaths' ordinal='3' />
+            <column datatype='real' name='K/D_Ratio' ordinal='4' />
+            <column datatype='integer' name='Assists' ordinal='5' />
+            <column datatype='integer' name='Headshots' ordinal='6' />
+            <column datatype='real' name='Headshot %' ordinal='7' />
+            <column datatype='integer' name='Wins' ordinal='8' />
+            <column datatype='string' name='Main_Gun' ordinal='9' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.08qfk3x1s9t01817kldf41l43ryg' name='processed_data_BM.csv' table='[processed_data_BM#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+            <column datatype='string' name='Gamertag' ordinal='0' />
+            <column datatype='string' name='Rank' ordinal='1' />
+            <column datatype='integer' name='Kills' ordinal='2' />
+            <column datatype='integer' name='Deaths' ordinal='3' />
+            <column datatype='real' name='K/D_Ratio' ordinal='4' />
+            <column datatype='integer' name='Assists' ordinal='5' />
+            <column datatype='integer' name='Headshots' ordinal='6' />
+            <column datatype='real' name='Headshot %' ordinal='7' />
+            <column datatype='integer' name='Wins' ordinal='8' />
+            <column datatype='string' name='Main_Gun' ordinal='9' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[processed_data_BM.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_CA&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gamertag</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Gamertag]</local-name>
+            <parent-name>[processed_data_BM.csv]</parent-name>
+            <remote-alias>Gamertag</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data_BM.csv_81D050F7683148E5B3BF1C3EAE8357C2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rank</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Rank]</local-name>
+            <parent-name>[processed_data_BM.csv]</parent-name>
+            <remote-alias>Rank</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data_BM.csv_81D050F7683148E5B3BF1C3EAE8357C2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Kills</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Kills]</local-name>
+            <parent-name>[processed_data_BM.csv]</parent-name>
+            <remote-alias>Kills</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data_BM.csv_81D050F7683148E5B3BF1C3EAE8357C2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Deaths</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Deaths]</local-name>
+            <parent-name>[processed_data_BM.csv]</parent-name>
+            <remote-alias>Deaths</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data_BM.csv_81D050F7683148E5B3BF1C3EAE8357C2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>K/D_Ratio</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[K/D_Ratio]</local-name>
+            <parent-name>[processed_data_BM.csv]</parent-name>
+            <remote-alias>K/D_Ratio</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data_BM.csv_81D050F7683148E5B3BF1C3EAE8357C2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Assists</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Assists]</local-name>
+            <parent-name>[processed_data_BM.csv]</parent-name>
+            <remote-alias>Assists</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data_BM.csv_81D050F7683148E5B3BF1C3EAE8357C2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Headshots</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Headshots]</local-name>
+            <parent-name>[processed_data_BM.csv]</parent-name>
+            <remote-alias>Headshots</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data_BM.csv_81D050F7683148E5B3BF1C3EAE8357C2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Headshot %</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Headshot %]</local-name>
+            <parent-name>[processed_data_BM.csv]</parent-name>
+            <remote-alias>Headshot %</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data_BM.csv_81D050F7683148E5B3BF1C3EAE8357C2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Wins</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Wins]</local-name>
+            <parent-name>[processed_data_BM.csv]</parent-name>
+            <remote-alias>Wins</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data_BM.csv_81D050F7683148E5B3BF1C3EAE8357C2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Main_Gun</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Main_Gun]</local-name>
+            <parent-name>[processed_data_BM.csv]</parent-name>
+            <remote-alias>Main_Gun</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data_BM.csv_81D050F7683148E5B3BF1C3EAE8357C2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='K/D Ratio' datatype='real' name='[K/D_Ratio]' role='measure' type='quantitative' />
+      <column caption='Main Gun' datatype='string' name='[Main_Gun]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Rank (group)]' role='dimension' type='nominal'>
+        <calculation class='categorical-bin' column='[Rank]' default='&quot;Other&quot;' new-bin='true'>
+          <bin default-name='true' value='&quot;Gold 1, Gold 2, Gold 3&quot;'>
+            <value>&quot;Gold 1&quot;</value>
+            <value>&quot;Gold 2&quot;</value>
+            <value>&quot;Gold 3&quot;</value>
+          </bin>
+        </calculation>
+      </column>
+      <column datatype='string' name='[Rank]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='processed_data_BM.csv' datatype='table' name='[__tableau_internal_object_id__].[processed_data_BM.csv_81D050F7683148E5B3BF1C3EAE8357C2]' role='measure' type='quantitative' />
+      <column-instance column='[Rank]' derivation='Attribute' name='[attr:Rank:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Rank]' derivation='None' name='[none:Rank:nk]' pivot='key' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Rank:nk]' type='palette'>
+            <map to='#3896c4'>
+              <bucket>&quot;Diamond 2&quot;</bucket>
+            </map>
+            <map to='#466f9d'>
+              <bucket>&quot;Diamond 3&quot;</bucket>
+            </map>
+            <map to='#848e93'>
+              <bucket>&quot;Platinum 3&quot;</bucket>
+            </map>
+            <map to='#a0d4ee'>
+              <bucket>&quot;Diamond 1&quot;</bucket>
+            </map>
+            <map to='#acb0b1'>
+              <bucket>&quot;Platinum 2&quot;</bucket>
+            </map>
+            <map to='#b8163a'>
+              <bucket>&quot;Radiant&quot;</bucket>
+            </map>
+            <map to='#b882a6'>
+              <bucket>&quot;Immortal 3&quot;</bucket>
+            </map>
+            <map to='#d5a4c4'>
+              <bucket>&quot;Immortal 2&quot;</bucket>
+            </map>
+            <map to='#d5d5d5'>
+              <bucket>&quot;Platinum 1&quot;</bucket>
+            </map>
+            <map to='#eec9e5'>
+              <bucket>&quot;Immortal 1&quot;</bucket>
+            </map>
+            <map to='#f7ae54'>
+              <bucket>&quot;Gold 3&quot;</bucket>
+            </map>
+            <map to='#fcbe75'>
+              <bucket>&quot;Gold 2&quot;</bucket>
+            </map>
+            <map to='#ffc685'>
+              <bucket>&quot;Gold 1&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[attr:Rank:nk]' type='palette'>
+            <map to='#3896c4'>
+              <bucket>&quot;Diamond 2&quot;</bucket>
+            </map>
+            <map to='#466f9d'>
+              <bucket>&quot;Diamond 3&quot;</bucket>
+            </map>
+            <map to='#848e93'>
+              <bucket>&quot;Platinum 3&quot;</bucket>
+            </map>
+            <map to='#a0d4ee'>
+              <bucket>&quot;Diamond 1&quot;</bucket>
+            </map>
+            <map to='#acb0b1'>
+              <bucket>&quot;Platinum 2&quot;</bucket>
+            </map>
+            <map to='#b8163a'>
+              <bucket>&quot;Radiant&quot;</bucket>
+            </map>
+            <map to='#b882a6'>
+              <bucket>&quot;Immortal 3&quot;</bucket>
+            </map>
+            <map to='#d5a4c4'>
+              <bucket>&quot;Immortal 2&quot;</bucket>
+            </map>
+            <map to='#d5d5d5'>
+              <bucket>&quot;Platinum 1&quot;</bucket>
+            </map>
+            <map to='#eec9e5'>
+              <bucket>&quot;Immortal 1&quot;</bucket>
+            </map>
+            <map to='#f7ae54'>
+              <bucket>&quot;Gold 3&quot;</bucket>
+            </map>
+            <map to='#fcbe75'>
+              <bucket>&quot;Gold 2&quot;</bucket>
+            </map>
+            <map to='#ffc685'>
+              <bucket>&quot;Gold 1&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Canada&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='processed_data_BM.csv' id='processed_data_BM.csv_81D050F7683148E5B3BF1C3EAE8357C2'>
+            <properties context=''>
+              <relation connection='textscan.08qfk3x1s9t01817kldf41l43ryg' name='processed_data_BM.csv' table='[processed_data_BM#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+                  <column datatype='string' name='Gamertag' ordinal='0' />
+                  <column datatype='string' name='Rank' ordinal='1' />
+                  <column datatype='integer' name='Kills' ordinal='2' />
+                  <column datatype='integer' name='Deaths' ordinal='3' />
+                  <column datatype='real' name='K/D_Ratio' ordinal='4' />
+                  <column datatype='integer' name='Assists' ordinal='5' />
+                  <column datatype='integer' name='Headshots' ordinal='6' />
+                  <column datatype='real' name='Headshot %' ordinal='7' />
+                  <column datatype='integer' name='Wins' ordinal='8' />
+                  <column datatype='string' name='Main_Gun' ordinal='9' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Guns per Rank'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true'>Most Used Guns per Rank</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='processed_data_BM' name='federated.0gedfgd0xikumb150qqj908qvj4o' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0gedfgd0xikumb150qqj908qvj4o'>
+            <column datatype='integer' name='[Kills]' role='measure' type='quantitative' />
+            <column caption='Main Gun' datatype='string' name='[Main_Gun]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Rank]' role='dimension' type='nominal' />
+            <column-instance column='[Kills]' derivation='Avg' name='[avg:Kills:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Main_Gun]' derivation='None' name='[none:Main_Gun:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Rank]' derivation='None' name='[none:Rank:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.0gedfgd0xikumb150qqj908qvj4o].[avg:Kills:qk]' included-values='in-range'>
+            <min>7.4444444444444446</min>
+            <max>2623.0</max>
+          </filter>
+          <filter class='categorical' column='[federated.0gedfgd0xikumb150qqj908qvj4o].[none:Main_Gun:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Main_Gun:nk]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[none:Main_Gun:nk]' member='&quot;Ares&quot;' />
+                <groupfilter function='member' level='[none:Main_Gun:nk]' member='&quot;Classic&quot;' />
+                <groupfilter function='member' level='[none:Main_Gun:nk]' member='&quot;Frenzy&quot;' />
+                <groupfilter function='member' level='[none:Main_Gun:nk]' member='&quot;Ghost&quot;' />
+                <groupfilter function='member' level='[none:Main_Gun:nk]' member='&quot;Marshal&quot;' />
+                <groupfilter function='member' level='[none:Main_Gun:nk]' member='&quot;Sheriff&quot;' />
+                <groupfilter function='member' level='[none:Main_Gun:nk]' member='&quot;Spectre&quot;' />
+                <groupfilter function='member' level='[none:Main_Gun:nk]' member='%null%' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0gedfgd0xikumb150qqj908qvj4o].[none:Rank:nk]'>
+            <groupfilter function='level-members' level='[none:Rank:nk]' />
+          </filter>
+          <manual-sort column='[federated.0gedfgd0xikumb150qqj908qvj4o].[none:Rank:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Gold 1&quot;</bucket>
+              <bucket>&quot;Gold 2&quot;</bucket>
+              <bucket>&quot;Gold 3&quot;</bucket>
+              <bucket>&quot;Platinum 1&quot;</bucket>
+              <bucket>&quot;Platinum 2&quot;</bucket>
+              <bucket>&quot;Platinum 3&quot;</bucket>
+              <bucket>&quot;Diamond 1&quot;</bucket>
+              <bucket>&quot;Diamond 2&quot;</bucket>
+              <bucket>&quot;Diamond 3&quot;</bucket>
+              <bucket>&quot;Immortal 1&quot;</bucket>
+              <bucket>&quot;Immortal 2&quot;</bucket>
+              <bucket>&quot;Immortal 3&quot;</bucket>
+              <bucket>&quot;Radiant&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.0gedfgd0xikumb150qqj908qvj4o].[none:Main_Gun:nk]</column>
+            <column>[federated.0gedfgd0xikumb150qqj908qvj4o].[avg:Kills:qk]</column>
+            <column>[federated.0gedfgd0xikumb150qqj908qvj4o].[none:Rank:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.0gedfgd0xikumb150qqj908qvj4o].[avg:Kills:qk]' scope='cols' value='Kills' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0gedfgd0xikumb150qqj908qvj4o].[none:Main_Gun:nk]' value='185' />
+            <format attr='width' value='340' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.0gedfgd0xikumb150qqj908qvj4o].[none:Main_Gun:nk]' value='false' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0gedfgd0xikumb150qqj908qvj4o].[none:Main_Gun:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#69aaa5' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0gedfgd0xikumb150qqj908qvj4o].[none:Main_Gun:nk]</rows>
+        <cols>([federated.0gedfgd0xikumb150qqj908qvj4o].[none:Rank:nk] * [federated.0gedfgd0xikumb150qqj908qvj4o].[avg:Kills:qk])</cols>
+      </table>
+      <simple-id uuid='{C85A7099-2FC8-4839-AD8D-CE2DDD4776D5}' />
+    </worksheet>
+    <worksheet name='Headshot % per Gun'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true'>Accuracy per Gun</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='processed_data_BM' name='federated.0gedfgd0xikumb150qqj908qvj4o' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0gedfgd0xikumb150qqj908qvj4o'>
+            <column datatype='real' name='[Headshot %]' role='measure' type='quantitative' />
+            <column caption='Main Gun' datatype='string' name='[Main_Gun]' role='dimension' type='nominal' />
+            <column-instance column='[Headshot %]' derivation='Avg' name='[avg:Headshot %:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Main_Gun]' derivation='None' name='[none:Main_Gun:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.0gedfgd0xikumb150qqj908qvj4o].[avg:Headshot %:qk]' scope='rows' value='Headshot Percentage' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#69aaa5' />
+                <format attr='size' value='1' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0gedfgd0xikumb150qqj908qvj4o].[avg:Headshot %:qk]</rows>
+        <cols>[federated.0gedfgd0xikumb150qqj908qvj4o].[none:Main_Gun:nk]</cols>
+      </table>
+      <simple-id uuid='{C25F16A7-8BDB-41B8-942D-023BE2E34650}' />
+    </worksheet>
+    <worksheet name='Headshot % per Rank'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true'>Average Headshot Percentage per Rank</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='processed_data_BM' name='federated.0gedfgd0xikumb150qqj908qvj4o' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0gedfgd0xikumb150qqj908qvj4o'>
+            <column datatype='real' name='[Headshot %]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Rank]' role='dimension' type='nominal' />
+            <column-instance column='[Headshot %]' derivation='Avg' name='[avg:Headshot %:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Rank]' derivation='None' name='[none:Rank:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <manual-sort column='[federated.0gedfgd0xikumb150qqj908qvj4o].[none:Rank:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Gold 1&quot;</bucket>
+              <bucket>&quot;Gold 2&quot;</bucket>
+              <bucket>&quot;Gold 3&quot;</bucket>
+              <bucket>&quot;Platinum 1&quot;</bucket>
+              <bucket>&quot;Platinum 2&quot;</bucket>
+              <bucket>&quot;Platinum 3&quot;</bucket>
+              <bucket>&quot;Diamond 1&quot;</bucket>
+              <bucket>&quot;Diamond 2&quot;</bucket>
+              <bucket>&quot;Diamond 3&quot;</bucket>
+              <bucket>&quot;Immortal 1&quot;</bucket>
+              <bucket>&quot;Immortal 2&quot;</bucket>
+              <bucket>&quot;Immortal 3&quot;</bucket>
+              <bucket>&quot;Radiant&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0gedfgd0xikumb150qqj908qvj4o].[avg:Headshot %:qk]' field-type='quantitative' max='26.0' min='14.0' range-type='fixed' scope='rows' type='space' />
+            <format attr='title' class='0' field='[federated.0gedfgd0xikumb150qqj908qvj4o].[avg:Headshot %:qk]' scope='rows' value='Headshot Percentage' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-color' value='#f28e2b' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0gedfgd0xikumb150qqj908qvj4o].[avg:Headshot %:qk]</rows>
+        <cols>[federated.0gedfgd0xikumb150qqj908qvj4o].[none:Rank:nk]</cols>
+      </table>
+      <simple-id uuid='{3AD3B553-7F7F-444D-B036-CCDB15222011}' />
+    </worksheet>
+    <worksheet name='K/D Ratio'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true'>Kill/Death Ratio per Rank</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='processed_data_BM' name='federated.0gedfgd0xikumb150qqj908qvj4o' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0gedfgd0xikumb150qqj908qvj4o'>
+            <column caption='K/D Ratio' datatype='real' name='[K/D_Ratio]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Rank]' role='dimension' type='nominal' />
+            <column-instance column='[K/D_Ratio]' derivation='Avg' name='[avg:K/D_Ratio:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Rank]' derivation='None' name='[none:Rank:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <manual-sort column='[federated.0gedfgd0xikumb150qqj908qvj4o].[none:Rank:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Gold 1&quot;</bucket>
+              <bucket>&quot;Gold 2&quot;</bucket>
+              <bucket>&quot;Gold 3&quot;</bucket>
+              <bucket>&quot;Platinum 1&quot;</bucket>
+              <bucket>&quot;Platinum 2&quot;</bucket>
+              <bucket>&quot;Platinum 3&quot;</bucket>
+              <bucket>&quot;Diamond 1&quot;</bucket>
+              <bucket>&quot;Diamond 2&quot;</bucket>
+              <bucket>&quot;Diamond 3&quot;</bucket>
+              <bucket>&quot;Immortal 1&quot;</bucket>
+              <bucket>&quot;Immortal 2&quot;</bucket>
+              <bucket>&quot;Immortal 3&quot;</bucket>
+              <bucket>&quot;Radiant&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0gedfgd0xikumb150qqj908qvj4o].[avg:K/D_Ratio:qk]' field-type='quantitative' max='1.25' min='0.90000000000000002' range-type='fixed' scope='rows' type='space' />
+            <format attr='title' class='0' field='[federated.0gedfgd0xikumb150qqj908qvj4o].[avg:K/D_Ratio:qk]' scope='rows' value='Kill/Death Ratio' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-orientation' field='[federated.0gedfgd0xikumb150qqj908qvj4o].[none:Rank:nk]' value='-90' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-color' value='#f28e2b' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0gedfgd0xikumb150qqj908qvj4o].[avg:K/D_Ratio:qk]</rows>
+        <cols>[federated.0gedfgd0xikumb150qqj908qvj4o].[none:Rank:nk]</cols>
+      </table>
+      <simple-id uuid='{C14B20BB-4431-4805-B3F3-515343E2DD2A}' />
+    </worksheet>
+    <worksheet name='Kills per Rank'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true'>Average Kills per Rank</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='processed_data_BM' name='federated.0gedfgd0xikumb150qqj908qvj4o' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0gedfgd0xikumb150qqj908qvj4o'>
+            <column datatype='integer' name='[Kills]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Rank]' role='dimension' type='nominal' />
+            <column-instance column='[Kills]' derivation='Avg' name='[avg:Kills:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Rank]' derivation='None' name='[none:Rank:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <manual-sort column='[federated.0gedfgd0xikumb150qqj908qvj4o].[none:Rank:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Gold 1&quot;</bucket>
+              <bucket>&quot;Gold 2&quot;</bucket>
+              <bucket>&quot;Gold 3&quot;</bucket>
+              <bucket>&quot;Platinum 1&quot;</bucket>
+              <bucket>&quot;Platinum 2&quot;</bucket>
+              <bucket>&quot;Platinum 3&quot;</bucket>
+              <bucket>&quot;Diamond 1&quot;</bucket>
+              <bucket>&quot;Diamond 2&quot;</bucket>
+              <bucket>&quot;Diamond 3&quot;</bucket>
+              <bucket>&quot;Immortal 1&quot;</bucket>
+              <bucket>&quot;Immortal 2&quot;</bucket>
+              <bucket>&quot;Immortal 3&quot;</bucket>
+              <bucket>&quot;Radiant&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.0gedfgd0xikumb150qqj908qvj4o].[avg:Kills:qk]' scope='rows' value='Kills' />
+            <format attr='width' field='[federated.0gedfgd0xikumb150qqj908qvj4o].[avg:Kills:qk]' value='68' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.0gedfgd0xikumb150qqj908qvj4o].[none:Rank:nk]' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <text column='[federated.0gedfgd0xikumb150qqj908qvj4o].[none:Rank:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-orientation' value='-90' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-color' value='#f28e2b' />
+                <format attr='size' value='1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0gedfgd0xikumb150qqj908qvj4o].[avg:Kills:qk]</rows>
+        <cols>[federated.0gedfgd0xikumb150qqj908qvj4o].[none:Rank:nk]</cols>
+      </table>
+      <simple-id uuid='{D3347C93-4904-45F2-8E8D-37C7C23BF341}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard'>
+      <style />
+      <size maxheight='1000' maxwidth='1200' minheight='1000' minwidth='1200' sizing-mode='fixed' />
+      <datasources>
+        <datasource caption='processed_data_BM' name='federated.0gedfgd0xikumb150qqj908qvj4o' />
+      </datasources>
+      <datasource-dependencies datasource='federated.0gedfgd0xikumb150qqj908qvj4o'>
+        <column datatype='integer' name='[Kills]' role='measure' type='quantitative' />
+        <column caption='Main Gun' datatype='string' name='[Main_Gun]' role='dimension' type='nominal' />
+        <column datatype='string' name='[Rank]' role='dimension' type='nominal' />
+        <column-instance column='[Kills]' derivation='Avg' name='[avg:Kills:qk]' pivot='key' type='quantitative' />
+        <column-instance column='[Main_Gun]' derivation='None' name='[none:Main_Gun:nk]' pivot='key' type='nominal' />
+        <column-instance column='[Rank]' derivation='None' name='[none:Rank:nk]' pivot='key' type='nominal' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98400' id='15' param='horz' type-v2='layout-flow' w='98666' x='667' y='800'>
+            <zone h='98400' id='13' type-v2='layout-basic' w='85333' x='667' y='800'>
+              <zone h='28000' id='1' name='Guns per Rank' w='85333' x='667' y='5300'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone forceUpdate='true' h='4500' id='6' type-v2='text' w='85333' x='667' y='800'>
+                <formatted-text>
+                  <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='20'>Brandon Mack - DATA 301 Project Dashboard</run>
+                </formatted-text>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='32950' id='7' name='K/D Ratio' w='44757' x='41243' y='66250'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='32950' id='8' name='Kills per Rank' w='44757' x='41243' y='33300'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='32950' id='9' name='Headshot % per Rank' w='40576' x='667' y='66250'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='32950' id='10' name='Headshot % per Gun' w='40576' x='667' y='33300'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='160' h='98400' id='14' is-fixed='true' param='vert' type-v2='layout-flow' w='13333' x='86000' y='800'>
+              <zone h='6900' id='16' name='Guns per Rank' param='[federated.0gedfgd0xikumb150qqj908qvj4o].[avg:Kills:qk]' type-v2='filter' values='database' w='13333' x='86000' y='800'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='35500' id='17' name='Guns per Rank' param='[federated.0gedfgd0xikumb150qqj908qvj4o].[none:Main_Gun:nk]' type-v2='filter' values='database' w='13333' x='86000' y='7700'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='29800' id='18' name='Guns per Rank' param='[federated.0gedfgd0xikumb150qqj908qvj4o].[none:Rank:nk]' type-v2='filter' values='database' w='13333' x='86000' y='43200'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1500' minheight='1500' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='12' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98400' id='11' param='vert' type-v2='layout-flow' w='98666' x='667' y='800'>
+                <zone forceUpdate='true' h='4500' id='6' type-v2='text' w='98666' x='667' y='800'>
+                  <formatted-text>
+                    <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='20'>Brandon Mack - DATA 301 Project Dashboard</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='272' h='28000' id='1' is-fixed='true' name='Guns per Rank' w='98666' x='667' y='5300'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='32950' id='10' is-fixed='true' name='Headshot % per Gun' w='46916' x='667' y='33300'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='32950' id='8' is-fixed='true' name='Kills per Rank' w='51750' x='47583' y='33300'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='32950' id='9' is-fixed='true' name='Headshot % per Rank' w='46916' x='667' y='66250'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='32950' id='7' is-fixed='true' name='K/D Ratio' w='51750' x='47583' y='66250'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{582D1970-D1FA-4B32-A49E-3281C25AE933}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='Guns per Rank'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{B40F51B1-16D2-4181-830C-536508BD2BBB}' />
+    </window>
+    <window class='worksheet' name='Kills per Rank'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{CAC47A4A-1494-40A0-AF11-D6D937CC387F}' />
+    </window>
+    <window class='worksheet' name='K/D Ratio'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{A5AAE0F9-8AA5-478E-BB92-65A0D183A66E}' />
+    </window>
+    <window class='worksheet' name='Headshot % per Rank'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{AE240D49-958F-4D32-BCF6-E32B8B168453}' />
+    </window>
+    <window class='worksheet' name='Headshot % per Gun'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{8677210A-9AA9-4694-9BFE-AF1EB3BFFA94}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard'>
+      <viewpoints>
+        <viewpoint name='Guns per Rank' />
+        <viewpoint name='Headshot % per Gun'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Headshot % per Rank'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='K/D Ratio'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Kills per Rank'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='16' />
+      <simple-id uuid='{FAEE9E20-E1C1-483A-8335-140778DF49FA}' />
+    </window>
+  </windows>
+</workbook>
