@@ -19,7 +19,6 @@
 <div align="center"> <H3> Paragraph 2 </div>
 
 ![](images/KH_Usage.png)
-
   
 
 
@@ -29,8 +28,6 @@
 
    Brandon's research question was as follows; "What is the relationship between a player's weapon preferences, their accuracy with said weapons and their overall performance in terms of kills, wins and their rating in competitive play. How will these relationships differ across the ranks and as players get to a higher rank will there be a specific gun that players use to achieve this"
 
- 
-![gun_hs%_BM](images/images/gun_hs%_BM.png)
 
 ![rank_hs%_BM](images/rank_hs%_BM.png)
 
