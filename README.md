@@ -26,11 +26,12 @@ Brandon Mack:
 
 {You should use this area to add a screenshot of an interesting plot, or of your dashboard}
 
-<img src ="images/test.png" width="100px">
+![bm_dash](/images/dashboard_bm.png)
+<br>
+<br>
+<br>
+![tc_dash](/images/dashboard_tc.png)
 
-## References
-
-{Add your stuff here}
 
 
 
