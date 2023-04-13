@@ -16,11 +16,14 @@ The research question I investigated was: How does character usage differ across
 
 To answer this question, I analyzed data from the top Valorant players worldwide, focusing on their region, rank, and preferred agents.
 
-One visualization that helped me answer this question is a bar chart showing the distribution of agents used across different regions. From this visualization, I observed that Chamber and Viper are the most commonly used agents across all regions, while Phoenix and Cypher are the least popular.
+The first visualization that helped me answer this question is a bar chart showing the distribution of agents used across different regions. From this visualization, I observed that Chamber and Viper are the most commonly used agents across all regions, while Phoenix and Cypher are the least popular.
 
-Another visualization that helped me answer this question is a bar chart showing the relationship between player rank and the most commonly used agent. From this visualization, I observed that Chamber is the most commonly selected agent by rank, with only slight variations between different ranks.
+![](images/ByRegion.jpg)
 
-Finally, a bar chatshowing the frequency of agent usage across different ranks provided insight into the most and least picked agents in the game. From this visualization, I observed that Yoru, Cypher, and Phoenix are the least picked agents across all ranks, while Chamber and Viper are the most commonly picked.
+The second visualization that helped me answer this question is a bar chart showing the relationship between player rank and the most commonly used agent. From this visualization, I observed that Yoru, Cypher, and Phoenix are the least picked agents across all ranks, while Chamber and Viper are the most commonly picked.
+
+![](images/ByRank.jpg)
+
 
 Overall, my analysis suggests that there are some regional differences in agent usage in Valorant, but these differences are not substantial. The most popular agents across all regions and ranks are Chamber and Viper, while the least popular agents are Yoru, Cypher, and Phoenix. Additionally, there is not much variation in agent meta across different ranks. 
 
