@@ -34,6 +34,7 @@ My research question was: Which guns are the most used in the highest ranks and 
 These findings helped me narrow down the gun choices that are even being played at all, we finally kept just 5 of the guns plus gaurdian as it was an interesting outlier to look at. I then look at the gun damage and score of each of the guns to see which guns are the most effective. You can see the results in the graphs below.
 
 ![gun Damage](images/KH_DMG.png)
+   
 ![gun Score](images/KH_Score.png)
 
 The data shows that the Operator and Odin are high damage weapons that are commonly used by high-ranked players in Valorant due to their high dps. However, the Operator has a slower fire rate and the highest cost, while the Odin has a slower movement speed and is more situational. Despite this, the Vandal is the most consistent weapon across all ranks and is the most used in the game. This suggests that players prioritize consistency and reliability over raw power and that the Vandal is a versatile weapon that can be used effectively in various situations.
