@@ -33,7 +33,7 @@ My research question was: Which guns are the most used in the highest ranks and 
 
 These findings helped me narrow down the gun choices that are even being played at all, we finally kept just 5 of the guns plus gaurdian as it was an interesting outlier to look at. I then look at the gun damage and score of each of the guns to see which guns are the most effective. You can see the results in the graphs below.
 
-![gun Damage](images/KH_DMG.png)
+![gun Damage](images/KH_Dmg.png)
    
 ![gun Score](images/KH_Score.png)
 
