@@ -27,9 +27,18 @@
 
 
    Brandon's research question was as follows; "What is the relationship between a player's weapon preferences, their accuracy with said weapons and their overall performance in terms of kills, wins and their rating in competitive play. How will these relationships differ across the ranks and as players get to a higher rank will there be a specific gun that players use to achieve this"
+   <br>
+   <br>
 
+   ![](/images/gun_BM.png) 
+   This graph shows the accuracy for all guns in the game
+   <br>
+   <br>
 
-![rank_hs%_BM](images/rank_hs%_BM.png)
+   ![](/images/rank_BM.png)
+   This graph shows the average headshot percentage per rank
+   <br>
+   <br>
 
    The analysis was conducted on all rank levels as a comparison but focused mainly on the top Valorant players worldwide to see how they achieved their rank. The data was cleaned by removing irrelevant columns that were not relevant to the analysis being done. The visualizations created revealed that higher-ranked players did have higher headshot percentages, typically above 23% compared to their lower-ranked counterparts who had percentages around 10-15%. This is a significant statistic as a headshot in Valorant does the most damage and thus allows for the quickest kills. The most common guns used to achieve this were the Vandal and the Phantom which are both very popular due to their damage and accuracy. Overall the research question was explored in depth over the course of the project however there could have been better data cleaning and a more complex research question from the beginning. Lastly, the analysis provided insight into the relationship between a player's weapon preferences, accuracy and rank in Valorant.
 
